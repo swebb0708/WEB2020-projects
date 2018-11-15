@@ -7,14 +7,14 @@ Create a new file "game.html" and type the following code inside.
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Shooting Target</title>
-</head>
-<body>
-	<script type="text/javascript">
-      // your javascript code here
-  </script>
-</body>
+	<head>
+		<title>Shooting Target</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// your javascript code here
+		</script>
+	</body>
 </html>
 ```
 
@@ -39,12 +39,13 @@ Type the following code in the <script> section, right after the code from befor
 
 ```javascript
 setInterval(function(){
-  var posH = Math.random() * window.innerWidth;
-  var posV = Math.random() * window.innerHeight;
+	var posH = Math.random() * window.innerWidth;
+	var posV = Math.random() * window.innerHeight;
 
-  img.style.top = posV + "px";
-  img.style.left = posH + "px";
-},  1000);
+	img.style.top = posV + "px";
+	img.style.left = posH + "px";
+}, 1000);
+
 ```
 
 ## Add the score
