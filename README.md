@@ -81,10 +81,11 @@ If you still want more challenge, do the following improvements:
 2. Show a nicer winning message with a retry button.
 3. Add a nice animation to the target when you hit on it.
 4. Get two points when you click a target smaller than 50px.
-5. Make the screen blink red when you hit the target.
-6. Add a losing condition when the player spend over 2 minutes playing.
-7. Make three different targets appear on the screen at the same time.
-8. Add a shooting sound when you click.
-9. Add a break sound when you hit the target.
-10. Animate so when you click the target, a small and round projectile moves rapidly from the center of the screen to the center of the target.
+5. If not hit, make the target to move over the screen instead of disappearing and appearing
+6. Make the screen blink red when you hit the target.
+7. Add a losing condition when the player spend over 2 minutes playing.
+8. Make three different targets appear on the screen at the same time.
+9. Add a shooting sound when you click.
+10. Add a break sound when you hit the target.
+11. Animate so when you click the target, a small and round projectile moves rapidly from the center of the screen to the center of the target.
 
