@@ -77,11 +77,14 @@ Can you make the following improvements to this game? If you get lost check at t
 
 # Take it to the next level
 If you still want more challenge, do the following improvements:
-1. Add a cool background image to the game
-1. Get two points when you click a target smaller than 50px
-2. Show a nicer winning message with a retry button
-3. Add a losing condition when the player spend over 2 minutes
-4. Run a nice animation when you shoot on the target
-5. Add a shooting sound when you click 
-6. Add a break sound when you hit the target
-7. Make 1 to 3 different targets appear at the same time
+1. Add a cool background image to the game.
+2. Show a nicer winning message with a retry button.
+3. Add a nice animation to the target when you hit on it.
+4. Get two points when you click a target smaller than 50px.
+5. Make the screen blink red when you hit the target.
+6. Add a losing condition when the player spend over 2 minutes playing.
+7. Make three different targets appear on the screen at the same time.
+8. Add a shooting sound when you click.
+9. Add a break sound when you hit the target.
+10. Animate so when you click the target, a small, rounded, black <div> “bullet” moves rapidly from your pointer’s position minus 100px to the center of the target.
+
