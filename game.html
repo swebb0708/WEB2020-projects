@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Shooting Targets</title>
+	<title>Shooting Targeta</title>
 </head>
 <body>
 	<script type="text/javascript">
@@ -16,11 +16,10 @@
 		// create and resize the target
 		var img = new Image();
 		img.src = 'http://aws.canequity.com/assets/images/target.png';
+		img.style.position="absolute";
 		body.appendChild(img);
-		img.style.width="100px"
 
 		// move the target for the first time
-		img.style.position="absolute";
 		moveTarget();
 
 		// move the target for the first time
@@ -52,12 +51,19 @@
 
 		//move the target to a random place
 		function moveTarget() {
-			var posH = Math.random() * window.innerWidth - 100;
-			var posV = Math.random() * window.innerHeight - 100;
+			// change the size of the target
+			var size = Math.floor(Math.random() * 100) + 20 
 
+			// calculate the new position, do not let the image go offscreen on the right
+			var posH = Math.random() * window.innerWidth - size;
+			var posV = Math.random() * window.innerHeight - size;
+
+			// do not let the image go offscreen on the left
 			if(posH < 0) posH = 0;
 			if(posV < 0) posV = 0;
 
+			// position the image on screen
+			img.style.width = size + "px";
 			img.style.top = posV + "px";
 			img.style.left = posH + "px";
 		}
