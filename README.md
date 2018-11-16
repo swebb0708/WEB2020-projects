@@ -68,8 +68,20 @@ img.onclick = function () {
 ```
 
 # What else can we do?
-Can you make the following improvements to this game?  
+Can you make the following improvements to this game? If you get lost check at the code example "game.html".
 1. How can we ensure the target never goes out of the screen?
 2. Can we make the target disappear when is clicked?
 3. How to make the target go faster every time you click?
 4. How to make each target's size be different?
+5. Can we add a winning condition to your game?
+
+# Take it to the next level
+If you still want more challenge, do the following improvements:
+1. Add a cool background image to the game
+1. Get two points when you click a target smaller than 50px
+2. Show a nicer winning message with a retry button
+3. Add a losing condition when the player spend over 2 minutes
+4. Run a nice animation when you shoot on the target
+5. Add a shooting sound when you click 
+6. Add a break sound when you hit the target
+7. Make 1 to 3 different targets appear at the same time
