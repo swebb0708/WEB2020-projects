@@ -86,5 +86,5 @@ If you still want more challenge, do the following improvements:
 7. Make three different targets appear on the screen at the same time.
 8. Add a shooting sound when you click.
 9. Add a break sound when you hit the target.
-10. Animate so when you click the target, a small, rounded, black <div> “bullet” moves rapidly from your pointer’s position minus 100px to the center of the target.
+10. Animate so when you click the target, a small and round projectile moves rapidly from the center of the screen to the center of the target.
 
