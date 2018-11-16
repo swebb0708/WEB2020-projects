@@ -77,7 +77,7 @@ Can you make the following improvements to this game? If you get lost check at t
 
 # Take it to the next level
 If you still want more challenge, do the following improvements:
-1. Add a cool background image to the game.
+1. Add a cool background image to the game and improve the way points look.
 2. Show a nicer winning message with a retry button.
 3. Add a nice animation to the target when you hit on it.
 4. Get two points when you click a target smaller than 50px.
